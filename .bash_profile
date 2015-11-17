@@ -20,7 +20,7 @@ export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 
 # Set default editor
-export EDITOR="vim"
+export EDITOR="emacs"
 
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2)" scp sftp ssh
@@ -44,4 +44,3 @@ export NVM_DIR="/Users/michaelobriena/.nvm"
 # Personal Project
 export WALLPAPER_LOCATION="/Users/mike/Wallpapers/images/"
 export WALLPAPER_DESTINATION="/Users/mike/Wallpapers/active/"
-

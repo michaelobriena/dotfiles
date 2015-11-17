@@ -18,7 +18,7 @@ alias emacs="/usr/local/Cellar/emacs/24.4/Emacs.app/Contents/MacOS/Emacs -nw"
 alias c='~/pygmentize '
 
 # Todo
-alias todo="vim ~/Todo/todo.today"
+alias todo="emacs ~/Todo/todo.today"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
